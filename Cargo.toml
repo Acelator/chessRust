@@ -1,0 +1,10 @@
+[workspace]
+members = ["chess"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+authors = ["acelator"]
+edition = "2021"
+repository = "https://github.com/acelator/chess"
+keywords = ["chess-engine", "chess", "engine"]
