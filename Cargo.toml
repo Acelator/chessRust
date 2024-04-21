@@ -1,5 +1,5 @@
 [workspace]
-members = ["chess"]
+members = ["chess", "client", "tests"]
 resolver = "2"
 
 [workspace.package]
@@ -8,3 +8,6 @@ authors = ["acelator"]
 edition = "2021"
 repository = "https://github.com/acelator/chess"
 keywords = ["chess-engine", "chess", "engine"]
+
+[workspace.dependencies]
+chess 	= {path = "chess"}

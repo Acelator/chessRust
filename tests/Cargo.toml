@@ -1,0 +1,15 @@
+[package]
+name = "tests"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+keywords.workspace = true
+
+
+[[test]]
+name = "tests"
+path = "src/tests.rs"
+
+[dependencies]
+chess 	=  {workspace = true}
